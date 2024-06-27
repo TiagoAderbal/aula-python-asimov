@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Prices ", page_icon="💸")
 
 df_reviews = pd.read_csv("pages/customer reviews.csv")
 df_top100 = pd.read_csv("pages/Top-100 Trending Books.csv")
